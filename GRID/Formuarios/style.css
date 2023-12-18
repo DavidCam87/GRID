@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Nosifer&family=Open+Sans:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Comfortaa', sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+.register-form {
+  width: 80%;
+  margin: auto;
+  max-width: 500px;
+  margin-top: 200px;
+  border-radius: 10px;
+  border: 3px solid black;
+  padding: 20px;
+  background-color: #98ffff;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: end;
+}
+.register-form > div {
+  gap: 5px;
+}
+.register-form input, .register-form button{
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px 20px;
+}
+.register-form button {
+  width: 70%;
+  background-color: #b15cff;
+  cursor: pointer;
+  
+
+}
